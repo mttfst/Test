@@ -10,8 +10,8 @@ nse1 = np.random.randn(len(t))                 # white noise 1
 nse2 = np.random.randn(len(t))                 # white noise 2
 
 # Two signals with a coherent part at 10Hz and a random part
-s1 = np.sin(2 * np.pi * 10 * t) + nse1
-s2 = np.sin(2 * np.pi * 10 * t) + nse2
+s1 = np.sin(2 * np.pi * 17 * t) + nse1
+s2 = np.sin(2 * np.pi * 18 * t) + nse2
 
 fig, axs = plt.subplots(2, 1)
 axs[0].plot(t, s1, t, s2)
