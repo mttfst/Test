@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 np.random.seed(19680801)
 
 dt = 0.01
-t = np.arange(0, 31, dt)
+t = np.arange(0, 34, dt)
 nse1 = np.random.randn(len(t))                 # white noise 1
 nse2 = np.random.randn(len(t))                 # white noise 2
 
