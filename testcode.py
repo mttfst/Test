@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Fixing random state for reproducibility
 np.random.seed(2711)
 
-dt = 0.01
+dt = 0.005
 t = np.arange(0, 32, dt)
 nse1 = np.random.randn(len(t))                 # white noise 1
 nse2 = np.random.randn(len(t))                 # white noise 2
